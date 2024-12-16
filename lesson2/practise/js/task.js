@@ -22,18 +22,18 @@
 // console.log(typeof age);
 
 
-let num1 = prompt("please enter numbers");
-let num2 = prompt("please enter numbers");
-let x = (Number(num1));
-let y = (Number(num2));
-let numConfirmed = confirm(`are you sure you want to see the results?`);
+// let num1 = prompt("please enter numbers");
+// let num2 = prompt("please enter numbers");
+// let x = (Number(num1));
+// let y = (Number(num2));
+// let numConfirmed = confirm(`are you sure you want to see the results?`);
 
-console.log( x + y);
+// console.log( x + y);
 
-console.log( x - y);
+// console.log( x - y);
 
-console.log( x * y);
+// console.log( x * y);
 
-console.log( x / y);
+// console.log( x / y);
 
-console.log( x % y);
+// console.log( x % y);
