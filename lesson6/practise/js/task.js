@@ -20,12 +20,12 @@
 // console.log(result);
 
 
-let min = prompt('Enter minutes ');
-let hours = prompt('Enter hours ');
-let days = prompt('Enter days ');
-console.log( Number.parseInt(min)/60);
-console.log( Number.parseInt(hours)/24);
-console.log( Number.parseInt(hours)/30);
+// let min = prompt('Enter minutes ');
+// let hours = prompt('Enter hours ');
+// let days = prompt('Enter days ');
+// console.log( Number.parseInt(min)/60);
+// console.log( Number.parseInt(hours)/24);
+// console.log( Number.parseInt(hours)/30);
 
 // let num2 = Number.parseInt(num1);
 // let numberHours = num2 / 60;
