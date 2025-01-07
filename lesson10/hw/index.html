@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <form>
+        <section>
+            <label for="dinks">Drinks</label>
+            <select id="dinks" name="dinks">
+                <option value="coffee" id="coffee">Кава</option>
+                <option value="tea" id="tea">Чай</option>
+                <option value="juice" id="juice">Сік</option>
+            </select>
+            <button id="order">Send order</button>
+        </section>
+        <section>
+            <input id="day" type="text" placeholder="type a day">
+            <button id="btn">Check</button>
+        </section>
+        <section >
+            <input id="month" type="text" placeholder="type number of month">
+            <div class="days">
+                <button id="btn-month">Check</button>
+                <button id="btn-number">Check number of days</button>
+            </div>
+        </section>
+        <section>
+            <input id="colour" type="text" placeholder="type colour">
+            <button id="btn-colour">Check</button>
+        </section>
+        <section>
+            <label>Calculator</label>
+            <input type="number" id="first-num">
+            <input type="number" id="second-num">
+            <select id="operation" name="operation">
+                <option value="*" >*</option>
+                <option value="+">+</option>
+                <option value="-">-</option>
+                <option value="/">/</option>
+            </select>
+            <button id="btn-res">Solve</button>
+        </section>
+    </form>
+
+    <script src="./script.js" type="module"></script>
+</body>
+</html>
