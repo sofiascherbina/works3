@@ -44,4 +44,5 @@ console.log( y % x);
 let num1 = 12;
 
 num1 += 10;
+// console.log( num1 + 10);
 console.log( num1);

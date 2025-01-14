@@ -19,7 +19,7 @@
 //         alert('Сума більша за 10')
 //     }
 //     else{
-//         alert('')
+//         alert('Сума менша за 10')
 //     }
 // }
 
@@ -32,6 +32,6 @@ document.getElementById('btn').onclick = function(){
         window.location.href = 'index.html'
     }
     else{
-        alert('Error');
+        alert('OMG');
     }
 }

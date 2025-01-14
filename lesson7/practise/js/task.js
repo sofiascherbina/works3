@@ -18,4 +18,4 @@
 
 let num1 = prompt('enter number');
 if (num1 > 10){ console.log('number > 10')}
-    else {console.log('plaki plaki')};
+    else {console.log('plaki plaki')};hcdu

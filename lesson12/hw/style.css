@@ -1,0 +1,33 @@
+section{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+
+}
+button{
+    margin-bottom: 10px;
+    background-color: rgb(198, 163, 222);
+    color: azure;
+    border: none;
+    border-radius: 10px;
+    width: 170px;
+    height: 20px;
+}
+.days{
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+}
+input{
+    margin-bottom: 10px;
+    border: dotted 2px darkslateblue;
+    border-radius: 10px;
+    width: 500px;
+    height: 30px;
+}
+select{
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: dashed 2px khaki;
+    width: 70px;
+}
