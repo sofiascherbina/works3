@@ -19,11 +19,3 @@ do {
     }
 }
 while(userNum !== numRandom)
-
-
-
-// do {
-//     password = prompt('type ur password');
-// }
-// while(password !=="misa"){
-//     console.log('password is true');}
