@@ -32,3 +32,11 @@
 //     }
 // }
 // console.log(result);
+
+
+
+// const num = [];
+// for ( let i = 0; i < 5; i++){
+//     num.push(`number-${i}`);
+//     console.log(num[i]);
+// }
