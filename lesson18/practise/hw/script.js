@@ -85,37 +85,37 @@
 
 
 
-function isLoginValid(login){
-    if(login.length >= 4 && login.length <= 16){
-        return true;
-    }
-    return false;
-}
-let userLogin = prompt('type your login');
-let log = isLoginValid(userLogin);
-// console.log(log);
+// function isLoginValid(login){
+//     if(login.length >= 4 && login.length <= 16){
+//         return true;
+//     }
+//     return false;
+// }
+// let userLogin = prompt('type your login');
+// let log = isLoginValid(userLogin);
+// // console.log(log);
 
-function isLoginUnique(allLogins, login){
-        if(allLogins.includes(login)){
-            return false
-        }
-        return true
-}
-let logins = ['nakaMiku', 'mrPrince', 'sogeKing'];
-let logs = isLoginUnique(logins, userLogin);
-// console.log(logs);
+// function isLoginUnique(allLogins, login){
+//         if(allLogins.includes(login)){
+//             return false
+//         }
+//         return true
+// }
+// let logins = ['nakaMiku', 'mrPrince', 'sogeKing'];
+// let logs = isLoginUnique(logins, userLogin);
+// // console.log(logs);
 
-function addLogin(allLogins, login){
-    if(isLoginValid(login) === false){
-        alert('Помилка! Логін повинен бути від 4 до 16 символів');
-        return
-    }
-    if(isLoginUnique(allLogins, login) === false){
-        alert('Такий логін уже використовується!');
-        return
-    }
-    allLogins.push(login);
-    alert('Логін успішно доданий!');
-}
-let add = addLogin(logins, userLogin);
-console.log(logins)
+// function addLogin(allLogins, login){
+//     if(isLoginValid(login) === false){
+//         alert('Помилка! Логін повинен бути від 4 до 16 символів');
+//         return
+//     }
+//     if(isLoginUnique(allLogins, login) === false){
+//         alert('Такий логін уже використовується!');
+//         return
+//     }
+//     allLogins.push(login);
+//     alert('Логін успішно доданий!');
+// }
+// let add = addLogin(logins, userLogin);
+// console.log(logins)

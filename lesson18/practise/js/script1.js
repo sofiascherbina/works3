@@ -69,3 +69,15 @@
 // console.log(typeof funcExpression);
 // console.log(funcDeclation());
 // console.log(funcExpression());
+
+
+
+// const funcExpression = function ()  {
+//    let total = 0;
+//     for ( elements of arguments){
+//         total+= elements
+//     }
+//     return total
+// }
+// console.log(funcExpression(1, 3, 2, 5, 4, 56,89,7));
+

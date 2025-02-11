@@ -19,7 +19,7 @@
 // console.log(Number(result));
 
 
-// let browser = prompt('enterur browser');
+// let browser = prompt('enter ur browser');
 // let result;
 // switch(browser){
 //     case 'Edge':
