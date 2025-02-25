@@ -49,7 +49,7 @@ const cart = {
     add(){
        let newProduct = {
             name : prompt('enter name of new product', this.name),
-            price :prompt('enter price of new product', this.price)
+            price :Number(prompt('enter price of new product', this.price))
         }
         this.items.push(newProduct)
         console.log(this.items);
