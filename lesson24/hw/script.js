@@ -67,18 +67,18 @@
 // getAllPropValues( fruits)
 
 
-let fruits = [      
-    { name: 'apple', price: 50, count:3},
-    { name: 'grape', price: 70, count:14},
-    { name: 'lemon', price: 60, count:7},
-    { name: 'strawberry', price: 110, count:5},
-]
+// let fruits = [      
+//     { name: 'apple', price: 50, count:3},
+//     { name: 'grape', price: 70, count:14},
+//     { name: 'lemon', price: 60, count:7},
+//     { name: 'strawberry', price: 110, count:5},
+// ]
 
-function calculateTotalPrice(allProdcuts){
-    let total;
-    for (let el of allProdcuts){
-        total =  el.price* el.count
-        console.log(`${el.name} price is : ${total}`);
-    }
-}
-calculateTotalPrice(fruits)
+// function calculateTotalPrice(allProdcuts){
+//     let total;
+//     for (let el of allProdcuts){
+//         total =  el.price* el.count
+//         console.log(`${el.name} price is : ${total}`);
+//     }
+// }
+// calculateTotalPrice(fruits)
