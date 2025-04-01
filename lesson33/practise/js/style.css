@@ -1,0 +1,12 @@
+.li-st{
+    font-size: 102;
+    color: aquamarine;
+}
+.li-st:hover{
+    color: blueviolet;
+}
+
+.title{
+    font-size: 150;
+    color: cornflowerblue;
+}
