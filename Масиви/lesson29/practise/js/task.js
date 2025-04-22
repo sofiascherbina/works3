@@ -17,8 +17,8 @@ const tweets = [
     { id: '003', likes: 8, tags: ['css', 'react'] },
     { id: '004', likes: 0, tags: ['js', 'nodejs', 'react'] },
   ];
-//   let result = tweets.reduce((acc, element) =>  acc + element.likes, 0 )
-//   console.log(result);
+  let result = tweets.reduce((acc, element) =>  acc + element.likes, 0 )
+  console.log(result);
 //   let result = tweets.reduce((acc, element) => acc.push(...element.tags), [] )
 //   console.log(result);
 
@@ -29,18 +29,18 @@ const tweets = [
 //   }, [])
 //   console.log(result);
 
-  let result = tweets.reduce((acc, element) => {
-    element.tags.forEach((num) => {
-    if(acc[num]){
-      acc[num]+=1
-    }
-    else{
-      acc[num] = 1;
-    }
-   })  
-   return acc;  
-  }, {})
-  console.log(result);
+  // let result = tweets.reduce((acc, element) => {
+  //   element.tags.forEach((num) => {
+  //   if(acc[num]){
+  //     acc[num]+=1
+  //   }
+  //   else{
+  //     acc[num] = 1;
+  //   }
+  //  })  
+  //  return acc;  
+  // }, {})
+  // console.log(result);
 
 // let numbers = [1, 2, 3, 4, 5];
 // let result = numbers.reduce((acc, element) =>  acc + element / numbers.length, 0 )

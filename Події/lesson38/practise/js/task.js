@@ -24,26 +24,26 @@
 // }
 // button.addEventListener('click', onInputClick)
 
-let btnLess = document.querySelector('.btn-less');
-let btnMore = document.querySelector('.btn-add');
-let text = document.querySelector('.text');
-// let fontSize = parseInt(window.getComputedStyle(text).fontSize);
-let textSize = parseInt(text.style.fontSize ="16");
+// let btnLess = document.querySelector('.btn-less');
+// let btnMore = document.querySelector('.btn-add');
+// let text = document.querySelector('.text');
+// // let fontSize = parseInt(window.getComputedStyle(text).fontSize);
+// let textSize = parseInt(text.style.fontSize ="16");
 
 
-function onbtnLessClick (){
+// function onbtnLessClick (){
    
-    textSize -= 2;
-     console.log(textSize);
-    text.style.fontSize = textSize +"px";
+//     textSize -= 2;
+//      console.log(textSize);
+//     text.style.fontSize = textSize +"px";
     
     
-};
+// };
 
-function onbtnMoreClick (){
-    textSize += 2;
-    console.log(textSize);
-    text.style.fontSize = textSize +"px";
-};
-btnMore.addEventListener('click', onbtnMoreClick);
-btnLess.addEventListener('click', onbtnLessClick);
+// function onbtnMoreClick (){
+//     textSize += 2;
+//     console.log(textSize);
+//     text.style.fontSize = textSize +"px";
+// };
+// btnMore.addEventListener('click', onbtnMoreClick);
+// btnLess.addEventListener('click', onbtnLessClick);
